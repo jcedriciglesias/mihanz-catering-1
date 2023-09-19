@@ -268,6 +268,10 @@ main{
         border: 3px solid #dddddd;
         background-color: firebrick;
       }
+      td img{
+        height: 400px;
+        width: 500px;
+      }
       
       tr:nth-child(even) {
         background-color: #dddddd47;

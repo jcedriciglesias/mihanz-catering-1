@@ -451,8 +451,8 @@ footer a:hover{
     background: rgb(255, 255, 255);
     height: 5vh;
     width: 60vh;
-    font-size: 30px;
-    border-radius: 10px;
+    font-size: 20px;
+    border-radius: 5px;
 }
 #userImage{
     height: 20vh;
@@ -597,6 +597,18 @@ table {
 
 table, th, td {
     text-align: left;
+}
+.userEditProfileContainer{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    color: white;
+    align-items: center;
+   min-height: 100vh;
+}
+.userEditProfileContainer form{
+    text-align: left;
+    padding: 15px;
 }
 
 
