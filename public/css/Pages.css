@@ -263,10 +263,12 @@ align-items: center;
     font-size: 67px;
 }
 .Food-Container ul{
+    
     display: flex;
-    gap: 2%;
+    gap: 5%;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 .Food-Card-Menu{
     height: 40vh;
@@ -544,6 +546,7 @@ footer a:hover{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: row-reverse;
+    width: auto;
 }
 .modal-content img{
     height: 200px;

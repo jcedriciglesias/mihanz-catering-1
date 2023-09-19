@@ -4,7 +4,6 @@
 
 <link rel="stylesheet" href="{{ asset('css/admin.css') }}">
 
-
 <div class="container"> 
     <main>
         <form action="{{ route('users.update', $user->id) }}" method="POST">

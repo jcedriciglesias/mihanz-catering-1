@@ -11,7 +11,7 @@
     </div>
 
     <h1>{{ $categoryName }} Menu</h1>
-    
+    <ul>
     @foreach ($menus as $menu)
 <li class="Food-Card-Menu">
     <div>
@@ -23,6 +23,7 @@
         <p class="Food-name">{{ $menu->name }}</p>
     </div>
 </li>
+
 @endforeach
 
     <div id="modal" class="modal">
@@ -36,6 +37,7 @@
             </div>
         </div>
     </div>
+    </ul>   
 </div>
 
 <script>
